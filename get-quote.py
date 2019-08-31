@@ -10,3 +10,5 @@ def main():
 if __name__== "__main__":
   main()
 python get-quote.py
+
+git status
