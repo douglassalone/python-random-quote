@@ -12,3 +12,6 @@ if __name__== "__main__":
 python get-quote.py
 
 git status
+git add get-quote.py
+git commit -m "Hello world"
+git push
