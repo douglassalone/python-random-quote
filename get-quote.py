@@ -1,11 +1,11 @@
 def main():
    print("Keep it logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
 
-  #print(quotes)
+  print(quotes[0])
 
 if __name__== "__main__":
   main()
@@ -15,3 +15,4 @@ git status
 git add get-quote.py
 git commit -m "Hello world"
 git push
+
